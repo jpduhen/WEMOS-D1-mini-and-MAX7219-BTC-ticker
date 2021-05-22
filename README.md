@@ -1,15 +1,12 @@
 # WEMOS-D1-mini-and-MAX7219-BTC-ticker
 ## A low cost BTC ticker based on a WEMOS D1 mini and a MAX7219 display
 
+![IMG_3493](https://user-images.githubusercontent.com/45515609/119229483-964a6800-bb18-11eb-8cde-a79fbf68d500.jpg)
 
+Using Arduino IDE, make sure the MAX7219-jpd.ccp an MAX7219-jpd.h are in the same directory as the 20210522_v0.99.ino file
 
-# max7219
-## A library for the MAX7219 7 segment 8 digit display with decimals.
-
-
-![MAX8219 Connected to Arduino UNO](https://github.com/JemRF/max7219/blob/master/pictures/MAX7219%20and%20Arduino.jpg)
-
-## An easy to use library that allows you to write to the display, using the DisplayText method. 
+1. Flash the WEMOS with the 20210522_v0.99.ino file
+2. Set the local WIFI credentials via AP "
 
 DisplayText(Text, Justification)
  - Text : The text you want to display (8 characters or less, plus up to 8 decimals)
